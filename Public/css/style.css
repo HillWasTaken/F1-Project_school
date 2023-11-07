@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+/* font-family: 'Inter', sans-serif; = font weight 300 */
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@600&display=swap');
+
+/* font-family: 'Inter', sans-serif; = font weight 600 */
+
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.rounded_corners {
+    border-radius: 25px;
+}
+
+.img {
+    background-color: transparent;
+}
+
+.coureur {
+    border: 1px black solid;
+    background-color: #D9D9D9;
+    width: 500px;
+    padding: 0 20px 20px 20px
+}
+
+.right-container {
+    width: 500px;
+}
+
+.right-div {
+    border: 1px black solid;
+    background-color: #D9D9D9;
+    padding: 0 20px 20px 20px
+}
+
+.right-div:last-child {
+    margin: 20px 0 0 0;
+}
+
+footer {
+    margin-top: auto;
+    background-color: #15151E;
+    height: 200px;
+}
+
+.footerText {
+    color: rgb(195, 195, 195);
+    text-decoration: none;
+    transition: 0.2s;
+}
+
+.footerText:hover {
+    color: white;
+    cursor: pointer;
+}
+
+#container {
+    width: 80%;
+}
+
+.text {
+    width: 100%;
+    border-bottom: 1px solid grey;
+}
+
+
+/* Cover */
+
+#cover {
+    height: 60vh;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+}
+
+#cover-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#cover-text {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.896796218487395) 72%, rgba(255, 255, 255, 0) 98%);
+    padding-top: 10px;
+    padding-bottom: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+
+/* nav bar */
+
+.color-navbar {
+    background-color: #E10600;
+}
+
+.text-navbar {
+    white-space: nowrap;
+    overflow: hidden;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+/* signup page */
+
+.signup-container {
+    background-color: #E10600;
+    height: 450px;
+    width: 600px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.69);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.login-container {
+    background-color: #E10600;
+    height: 300px;
+    width: 600px;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin: auto;
+    box-shadow: 5px 5px 10px 1px rgba(0, 0, 0, 0.69);
+    margin-top: 20px;
+}
+
+.submit {
+    bottom: 10px;
+    height: 50px;
+    width: 400px;
+    background-color: white;
+    border: 0px solid black;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+h4 {
+    margin-top: 5px;
+}
+
+.input-text {
+    width: 250px;
+    height: 30px;
+}
+
+input {
+    border-radius: 4px;
+    border: 0px solid black;
+}
+
+
+/* admin-opties pagina */
+
+#admin-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.admin-welkom-container {
+    width: 100%;
+    height: 40%;
+}
+
+.admin-welkom {
+    height: 21%;
+    width: 20%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.896796218487395) 72%, rgba(255, 255, 255, 0) 98%);
+    position: absolute;
+    margin-top: 5%;
+    margin-left: 40%;
+}
+
+.tool-select {
+    margin-top: 2px;
+    margin-bottom: 2px;
+    margin-left: 2px;
+}
+
+.tool-button {
+    background-color: white;
+    border-radius: 10px;
+    margin-top: auto;
+}
+
+.tool-add {
+    width: 2%;
+}
+
+
+/* account pagina */
+
+.profile-container {
+    height: 100%;
+    width: 100%;
+    background-color: rgb(217, 217, 217);
+}
+
+.profile-picture-container {
+    height: 100%;
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+
+.profile-picture {
+    background-color: #fff;
+    /* height: 40%; */
+    /* width: 80%; */
+    border-radius: 100%;
+    /* margin: 20% auto 10% auto; */
+    border: #ffffff 10px solid;
+}
+
+.new-picture {
+    background-color: white;
+    padding: 2% 5%;
+    border-radius: 25px;
+    text-decoration: none;
+    color: #15151E;
+}
+
+.profile-info {
+    height: 100%;
+    width: 50%;
+    float: left;
+}
+
+.profile-form {
+    padding: 3% 4%;
+    margin: 5% 5% 2%;
+    font-size: 200%;
+}
+
+.profile-form-submit {
+    padding: 1% 4%;
+    margin: 0.5% 5%;
+    text-align: center;
+    border-radius: 50px;
+    font-size: 150%;
+    background-color: #ffffff;
+    color: #15151E;
+}
+
+.profile-verify {
+    padding: 1% 4%;
+    font-size: 150%;
+    background-color: #ffffff;
+    color: #15151E;
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.profile-stats {
+    height: 100%;
+    width: 25%;
+    float: left;
+}
+
+.table-stats {
+    background-color: #ffffff;
+    width: 75%;
+    height: 20%;
+    margin: 100px auto 1px auto;
+}
+
+
+/* Races pagina */
+
+.coming-race {
+    margin-bottom: 15px;
+}
+
+
+/* Predictions pagina */
+
+.info {
+    background-color: #d9d9d9;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    border: solid 1px black;
+}
+
+.info h2 {
+    font-weight: bold;
+    text-align: center;
+    font-size: 48px;
+}
+
+.rank_container {
+    width: 100%;
+    padding: 40px;
+}
+
+.rank-button {
+    margin: auto;
+}
+
+
+/*
+    #logoImgMail {
+        filter: invert(57%) sepia(15%) saturate(23) hue-rotate(-45deg) brightness(100%) contrast(200%);
+    } */
